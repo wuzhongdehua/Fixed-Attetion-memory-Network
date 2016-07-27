@@ -14,8 +14,8 @@ In configs.py, you should change line number 16,17,18 to your own path.
 For example,
 ```bash
 flags.DEFINE_string("path_to_data_dump", '/data/seil/w2v_plot_official.hkl', 'your data dump path')
-flags.DEFINE_string("path_to_shortcut", './MN_shortcut', 'your data dump path')
-flags.DEFINE_string("patt_to_summaries", './summaries', 'your data dump path')
+flags.DEFINE_string("path_to_shortcut", './MN_shortcut/', 'your data dump path')
+flags.DEFINE_string("patt_to_summaries", './summaries/', 'your data dump path')
 ```
 also you need to change line number 12 in main.py, your servers own # of GPUs.
 ```bash
